@@ -73,8 +73,11 @@ crewai-marketing-app/
 ├── Dockerfile
 ├── docker-compose.yml
 ├── screenshots/
-│   ├── home.png
-│   └── output.png
+│   ├── image_1.png
+│   ├── image_2.png
+│   ├── image_3.png
+│   ├── image_4.png
+│   └── image_5.png
 └── README.md
 ```
 
@@ -89,7 +92,10 @@ crewai-marketing-app/
 
 ## 🖥️ Application Screenshots
 ### [🔹 Product Input & Dashboard ](screenshots/image_1.png)
-### [🔹 Generated Marketing Assets ](screenshots/image_2.png)(screenshots/image_3.png)(screenshots/image_4.png)
+### [🔹 Generated Marketing Assets (Strategy)](screenshots/image_2.png)
+### [🔹 Generated Marketing Assets (Social media post)](screenshots/image_3.png)
+### [🔹 Generated Marketing Assets (Blog)](screenshots/image_3.png)
+### [🔹 Generated Marketing Assets (Reels)](screenshots/image_5.png)
 
 ## ⚙️ Run Locally (Without Docker)
 ```bash
