@@ -94,7 +94,7 @@ crewai-marketing-app/
 ### [🔹 Product Input & Dashboard ](screenshots/image_1.png)
 ### [🔹 Generated Marketing Assets (Strategy)](screenshots/image_2.png)
 ### [🔹 Generated Marketing Assets (Social media post)](screenshots/image_3.png)
-### [🔹 Generated Marketing Assets (Blog)](screenshots/image_3.png)
+### [🔹 Generated Marketing Assets (Blog)](screenshots/image_4.png)
 ### [🔹 Generated Marketing Assets (Reels)](screenshots/image_5.png)
 
 ## ⚙️ Run Locally (Without Docker)
