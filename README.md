@@ -77,3 +77,58 @@ crewai-marketing-app/
 │   └── output.png
 └── README.md
 ```
+
+## 🔄 Application Workflow
+
+1. User enters product details (name, description, audience, budget)
+2. Clicks Run Crew
+3. CrewAI orchestrates multiple specialized agents
+4. Agents collaborate using LLM reasoning
+5. Marketing assets are generated and saved as .md files
+6. User downloads assets directly from the UI
+
+## 🖥️ Application Screenshots
+🔹 Product Input & Dashboard
+🔹 Generated Marketing Assets
+
+## ⚙️ Run Locally (Without Docker)
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+## 🐳 Run Using Docker
+
+##Build Image
+```bash
+docker build -t crewai-marketing-app .
+```
+
+## Run Container
+```bash
+docker run -p 8501:8501 crewai-marketing-app
+```
+
+## 🌐 Access Application
+- Streamlit UI → http://localhost:8501
+
+## 🐳 Docker Image
+The application is available as a pre-built Docker image on Docker Hub.
+
+👉 Docker Hub Repository:
+https://hub.docker.com/r/aravindvojjala/crewai-marketing-app
+
+## Pull Image
+```bash
+docker pull aravindvojjala/crewai-marketing-app
+```
+## Run Image
+```bash
+docker run -p 8501:8501 aravindvojjala/crewai-marketing-app
+```
+
+## Stop Container
+```bash
+docker ps
+docker stop <container_id>
+```
