@@ -88,8 +88,8 @@ crewai-marketing-app/
 6. User downloads assets directly from the UI
 
 ## 🖥️ Application Screenshots
-🔹 Product Input & Dashboard
-🔹 Generated Marketing Assets
+### [🔹 Product Input & Dashboard ](screenshots/image_1.png)
+### [🔹 Generated Marketing Assets ](screenshots/image_2.png)(screenshots/image_3.png)(screenshots/image_4.png)
 
 ## ⚙️ Run Locally (Without Docker)
 ```bash
@@ -115,7 +115,7 @@ docker run -p 8501:8501 crewai-marketing-app
 ## 🐳 Docker Image
 The application is available as a pre-built Docker image on Docker Hub.
 
-👉 Docker Hub Repository:
+👉 **Docker Hub Repository:**  
 https://hub.docker.com/r/aravindvojjala/crewai-marketing-app
 
 ## Pull Image
