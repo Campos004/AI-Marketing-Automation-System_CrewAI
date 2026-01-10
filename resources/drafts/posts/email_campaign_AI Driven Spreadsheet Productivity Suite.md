@@ -1,0 +1,2 @@
+# Introduction to AI Driven Spreadsheet Productivity Suite
+The AI Driven Spreadsheet Productivity Suite is a tool designed to automate repetitive tasks in Excel using AI, targeting Small and Medium Enterprises (SMEs). With its innovative approach, it streamlines workflows, increases productivity, and provides data-driven insights.

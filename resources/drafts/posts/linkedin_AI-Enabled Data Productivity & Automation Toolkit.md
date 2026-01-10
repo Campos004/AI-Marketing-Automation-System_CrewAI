@@ -1,0 +1,1 @@
+Introduction to AI-Enabled Data Productivity & Automation Toolkit. This toolkit automates repetitive tasks in Excel using AI, saving time and reducing errors. It helps SMEs streamline their operations, improve productivity, and reduce costs.

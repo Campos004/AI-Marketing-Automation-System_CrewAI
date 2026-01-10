@@ -1,0 +1,8 @@
+__pycache__/
+.env
+.git
+.gitignore
+.ipynb_checkpoints/
+*.pyc
+.env.local
+resources/drafts/*
