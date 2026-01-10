@@ -48,7 +48,7 @@ Layer | Technology
  Frontend UI | Streamlit 
  Search & Tools | Tavily, Web Scraping 
  Containerization | Docker 
- Deployment | Docker Hub, Cloud Ready 
+ Deployment | Docker Hub
 
 ---
 
