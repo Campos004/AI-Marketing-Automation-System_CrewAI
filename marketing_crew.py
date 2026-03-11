@@ -12,6 +12,7 @@ os.environ["CREWAI_TELEMETRY_DISABLED"] = "true"
 
 
 llm=LLM(
+    # model="cerebras/llama-3.3-70b",
     model=os.environ["MODEL"],
     base_url=os.environ["AZURE_API_BASE"],
     api_key=os.environ["AZURE_API_KEY"],
@@ -27,11 +28,6 @@ _tools = [
     ScrapeWebsiteTool(),
 ]
 
-# llm=LLM(
-#     model="cerebras/llama-3.3-70b",
-#     temperature=0.8
-
-# )
 
 class Content(BaseModel):
     content_type: str = Field(...,description="The type of content to be created (e.g., blog post, social media post, video)")
