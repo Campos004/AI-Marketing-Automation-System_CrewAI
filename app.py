@@ -1,6 +1,5 @@
 import streamlit as st
 import os
-from datetime import datetime
 from marketing_crew import MarketingCrew
 
 # Page Configuration
@@ -80,12 +79,11 @@ if run_btn:
             "product_description": product_description,
             "target_audience": target_audience,
             "budget": budget,
-            "current_date": datetime.now().strftime("%Y-%m-%d"),
         }
 
         with st.spinner("Running Marketing Crew... This may take a few minutes."):
             crew=MarketingCrew()
-            crew.marketing_crew().kickoff(inputs=inputs)
+            crew.marketing_crew().kickoff(inputs=inputs) 
 
         st.success("✅ Marketing assets generated successfully!")
 
